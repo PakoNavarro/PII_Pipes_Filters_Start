@@ -107,11 +107,11 @@ namespace Ucu.Poo.PipesAndFilters
         {
             PipeNull pipeNull = new PipeNull();
             PipeSerial pipePublishNegative = new PipeSerial(
-                new FilterPublishDiscord(discord, channelId, "Paso 2: negativo"),
+                new FilterPublishDiscord(discord, channelId, "¡Nueva imagen filtrada!"),
                 pipeNull);
             PipeSerial pipeNegative = new PipeSerial(new FilterNegative(), pipePublishNegative);
             PipeSerial pipePublishGrayscale = new PipeSerial(
-                new FilterPublishDiscord(discord, channelId, "Paso 1: escala de grises"),
+                new FilterPublishDiscord(discord, channelId, "¡Nueva imagen filtrada!"),
                 pipeNegative);
             PipeSerial pipeGrayscale = new PipeSerial(new FilterGrayscale(), pipePublishGrayscale);
 
