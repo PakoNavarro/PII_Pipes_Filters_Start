@@ -1,0 +1,31 @@
+{
+    "cSpell.enabled": true,
+    "cSpell.language": "en,es",
+    "cSpell.words": [
+        "Argb",
+        "buildtransitive",
+        "contentfiles",
+        "coreclr",
+        "dotnet",
+        "Doxify",
+        "Doxyfile",
+        "github",
+        "LINQ",
+        "Liskov",
+        "luke",
+        "msbuild",
+        "nunit",
+        "preconfiguradas",
+        "Pseudocódigo",
+        "ridesharing",
+        "Skia",
+        "slnx",
+        "sobreescritura",
+        "stylecop",
+        "Unpremul"
+    ],
+    "cSpell.ignorePaths": [
+        "/.gitignore",
+    ],
+    "dotnet.defaultSolution": "PII_Pipes_Filters_Start.slnx", // ← Renombrar para que coincida con la solución
+}
